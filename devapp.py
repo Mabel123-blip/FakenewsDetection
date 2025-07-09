@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import pickle
+import os
 
 # Load the saved model and vectorizer
 with open('fake_news_model.pkl', 'rb') as model_file:
